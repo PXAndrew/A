@@ -8,6 +8,6 @@ target 'A' do
   # Uncomment this line if you're using Swift or would like to use dynamic frameworks
   # use_frameworks!
   pod 'HandyFrame' 
-
+  pod 'B_Category'
 
 end

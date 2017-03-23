@@ -15,6 +15,8 @@
 		31864F0B1E83688500C2C45E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31864F091E83688500C2C45E /* LaunchScreen.storyboard */; };
 		31864F161E83688600C2C45E /* ATests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31864F151E83688600C2C45E /* ATests.m */; };
 		31864F211E83688600C2C45E /* AUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 31864F201E83688600C2C45E /* AUITests.m */; };
+		31864F321E837D1B00C2C45E /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31864F311E837D1B00C2C45E /* AViewController.m */; };
+		31864F791E83A8C100C2C45E /* Target_A.m in Sources */ = {isa = PBXBuildFile; fileRef = 31864F781E83A8C100C2C45E /* Target_A.m */; };
 		45B5467525785FF67461B793 /* libPods-A.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 94A6A2161276ECE3F52ED6AA /* libPods-A.a */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +56,10 @@
 		31864F1C1E83688600C2C45E /* AUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		31864F201E83688600C2C45E /* AUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AUITests.m; sourceTree = "<group>"; };
 		31864F221E83688600C2C45E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31864F301E837D1B00C2C45E /* AViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
+		31864F311E837D1B00C2C45E /* AViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
+		31864F771E83A8C100C2C45E /* Target_A.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_A.h; sourceTree = "<group>"; };
+		31864F781E83A8C100C2C45E /* Target_A.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_A.m; sourceTree = "<group>"; };
 		94A6A2161276ECE3F52ED6AA /* libPods-A.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-A.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -152,6 +158,9 @@
 		31864F2E1E83778100C2C45E /* A */ = {
 			isa = PBXGroup;
 			children = (
+				31864F761E83A8B500C2C45E /* Target */,
+				31864F301E837D1B00C2C45E /* AViewController.h */,
+				31864F311E837D1B00C2C45E /* AViewController.m */,
 			);
 			name = A;
 			path = A/A;
@@ -162,6 +171,15 @@
 			children = (
 			);
 			path = Demo;
+			sourceTree = "<group>";
+		};
+		31864F761E83A8B500C2C45E /* Target */ = {
+			isa = PBXGroup;
+			children = (
+				31864F771E83A8C100C2C45E /* Target_A.h */,
+				31864F781E83A8C100C2C45E /* Target_A.m */,
+			);
+			path = Target;
 			sourceTree = "<group>";
 		};
 		36E8B40D5FF933CF95A7D472 /* Frameworks */ = {
@@ -365,7 +383,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31864F321E837D1B00C2C45E /* AViewController.m in Sources */,
 				31864F031E83688500C2C45E /* ViewController.m in Sources */,
+				31864F791E83A8C100C2C45E /* Target_A.m in Sources */,
 				31864F001E83688500C2C45E /* AppDelegate.m in Sources */,
 				31864EFD1E83688500C2C45E /* main.m in Sources */,
 			);

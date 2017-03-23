@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import <HandyFrame/UIView+LayoutMethods.h>
+#import "AViewController.h"
 
 @interface ViewController ()
 
@@ -38,6 +39,8 @@
 #pragma mark - event reponds
 - (void)didTappedButton:(UIButton *)button {
     
+    UIViewController *viewController = [[AViewController alloc] init];
+    [self.navigationController pushViewController:viewController animated:YES];
     
     
 }
